@@ -1,0 +1,8 @@
+{
+  "name": "scrape-web",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Abdus",
+  "license": "MIT"
+}
