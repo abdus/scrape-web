@@ -1,5 +1,3 @@
 const scrapper = require('./scrapper');
 
-module.exports = {
-  scrapper,
-};
+module.exports = scrapper;

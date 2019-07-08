@@ -45,6 +45,9 @@ function scrapeData(html, element) {
       href: elemParsed.attr('href') ? elemParsed.attr('href') : null,
       textContent: elemParsed.text() ? elemParsed.text() : null,
       src: elemParsed.attr('src') ? elemParsed.attr('src') : null,
+      innerHTML: elemParsed.html(),
+      classList: elemParsed.attr('class'),
+      idList: elemParsed.attr('id'),
     };
 
     returnDataArr.push(elemInfo);
